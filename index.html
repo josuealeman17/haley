@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myrtle</title>
+    <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico" />
+
+    <script src="./js/animation.js" defer></script>
+    <script src="./js/color-mode.js" defer></script>
+    <script src="./js/project-slideshow.js" defer></script>
+    <script src="./js/video.js" defer></script>
+    <script src="./js/time.js" defer></script>
+
+    <link rel="stylesheet" href="./css/animation.css" />
+    <link rel="stylesheet" href="./css/color-mode.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-....."
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="hero">
+      <h1>Haley Lovendahl</h1>
+      <h2>Yoga Teacher</h2>
+      <div id="hero__animation">
+        <div id="hero__animation__img"></div>
+      </div>
+    </div>
+    <nav id="grid">
+      <!-- 1 -->
+      <div id="grid__tl">
+        <div id="grid__tl__btn">About</div>
+        <div id="grid__tl__content">
+          <div class="cards">
+            <div class="cards__content">
+              <article>
+                <h2>Haley Lovendahl</h2>
+                <p>
+                  ¡Feliz cumpleaños!<br />
+
+                  I made this for the woman who deserves it, <br />
+                  The one that makes my heart melt,<br />
+                  The one who awakes my senses,<br />
+                  The one who neutralizes the conflict, <br />
+                  the most beautiful of consequences.<br /><br />
+
+                  Happy birthday, to the one,<br />
+                  my Lovendahl love.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 -->
+
+      <div id="grid__tr">
+        <div id="grid__tr__btn">Experience</div>
+        <div id="grid__tr__content">
+          <div class="cards experience">
+            <article class="experience__skill">
+              <h2>Haley es...</h2>
+              <div>
+                <img
+                  src="./assets/icons/yoga.png"
+                  alt="Checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>Communicative</h2>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./assets/icons/yoga1.png"
+                  alt="Checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>Energetic</h2>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./assets/icons/yoga2.png"
+                  alt="Checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>Funny</h2>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./assets/icons/yoga3.png"
+                  alt="Checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>Attentive</h2>
+                </div>
+              </div>
+              <div>
+                <img
+                  src="./assets/icons/yoga4.png"
+                  alt="Checkmark icon"
+                  class="icon"
+                />
+                <div>
+                  <h2>Emphatic</h2>
+                </div>
+              </div>
+
+              <div>
+                <p>
+                  And definitely more. Her future students are so luckyy wtf
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 -->
+
+      <div id="grid__bl">
+        <div id="grid__bl__btn">Memories</div>
+        <div id="grid__bl__content">
+          <div id="grid__bl__content__projects">
+            <button class="arrow" onclick="navigateProject(-1)">
+              &#10094;
+            </button>
+            <div class="project p-1">
+              <img
+                class="project__img project-1"
+                src="assets/portfolio-projects/1.JPG"
+                alt="Project 1"
+              />
+              <h2 class="project__title">Tons</h2>
+            </div>
+            <div class="project p-2">
+              <img
+                class="project__img project-2"
+                src="assets/portfolio-projects/2.JPG"
+                alt="Project 2"
+              />
+              <h2 class="project__title">Que</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-3"
+                src="assets/portfolio-projects/3.jpg"
+                alt="Project 3"
+              />
+              <h2 class="project__title">Pues</h2>
+            </div>
+            <div class="project p-4">
+              <img
+                class="project__img project-3"
+                src="assets/portfolio-projects/4.PNG"
+                alt="Project 4"
+              />
+              <h2 class="project__title">Mi amor</h2>
+            </div>
+            <div class="project p-5">
+              <img
+                class="project__img project-3"
+                src="assets/portfolio-projects/5.jpg"
+                alt="Project 3"
+              />
+              <h2 class="project__title">Hope</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-6"
+                src="assets/portfolio-projects/6.jpg"
+                alt="Project 3"
+              />
+              <h2 class="project__title">You</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-7"
+                src="assets/portfolio-projects/7.jpg"
+                alt="Project 3"
+              />
+              <h2 class="project__title">Enjoy</h2>
+            </div>
+
+            <div class="project p-3">
+              <img
+                class="project__img project-8"
+                src="assets/portfolio-projects/8.jpg"
+                alt="Project 3"
+              />
+              <h2 class="project__title">Your</h2>
+            </div>
+
+            <div class="project p-3">
+              <img
+                class="project__img project-9"
+                src="assets/portfolio-projects/9.jpg"
+                alt="Project 3"
+              />
+              <h2 class="project__title">Day</h2>
+            </div>
+
+            <div class="project p-3">
+              <img
+                class="project__img project-10"
+                src="assets/portfolio-projects/10.jpg"
+                alt="Project 3"
+              />
+              <h2 class="project__title">So</h2>
+            </div>
+
+            <div class="project p-3">
+              <img
+                class="project__img project-11"
+                src="assets/portfolio-projects/11.PNG"
+                alt="Project 3"
+              />
+              <h2 class="project__title">Much.</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-12"
+                src="assets/portfolio-projects/12.jpg"
+                alt="Project 3"
+              />
+              <h2 class="project__title">You</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-13"
+                src="assets/portfolio-projects/13.PNG"
+                alt="Project 3"
+              />
+              <h2 class="project__title">Make</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-14"
+                src="assets/portfolio-projects/14.jpg"
+                alt="Project 3"
+              />
+              <h2 class="project__title">Me</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-15"
+                src="assets/portfolio-projects/15.JPG"
+                alt="Project 3"
+              />
+              <h2 class="project__title">A</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-16"
+                src="assets/portfolio-projects/16.JPG"
+                alt="Project 3"
+              />
+              <h2 class="project__title">Better</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-17"
+                src="assets/portfolio-projects/17.PNG"
+                alt="Project 3"
+              />
+              <h2 class="project__title">Man</h2>
+            </div>
+
+            <div class="project p-3">
+              <img
+                class="project__img project-18"
+                src="assets/portfolio-projects/18.PNG"
+                alt="Project 3"
+              />
+              <h2 class="project__title">Thanks</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-19"
+                src="assets/portfolio-projects/19.PNG"
+                alt="Project 3"
+              />
+              <h2 class="project__title">For</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-20"
+                src="assets/portfolio-projects/20.jpg"
+                alt="Project 3"
+              />
+              <h2 class="project__title">That</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-21"
+                src="assets/portfolio-projects/21.PNG"
+                alt="Project 3"
+              />
+              <h2 class="project__title">Remember, you</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-22"
+                src="assets/portfolio-projects/22.PNG"
+                alt="Project 3"
+              />
+              <h2 class="project__title">Are</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-23"
+                src="assets/portfolio-projects/23.jpg"
+                alt="Project 3"
+              />
+              <h2 class="project__title">here</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-24"
+                src="assets/portfolio-projects/24.jpg"
+                alt="Project 3"
+              />
+              <h2 class="project__title">for</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-25"
+                src="assets/portfolio-projects/25.jpg"
+                alt="Project 3"
+              />
+              <h2 class="project__title">a</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-26"
+                src="assets/portfolio-projects/26.jpg"
+                alt="Project 3"
+              />
+              <h2 class="project__title">reason</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-27"
+                src="assets/portfolio-projects/27.jpg"
+                alt="Project 3"
+              />
+              <h2 class="project__title">I</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-28"
+                src="assets/portfolio-projects/28.jpg"
+                alt="Project 3"
+              />
+              <h2 class="project__title">Love</h2>
+            </div>
+            <div class="project p-3">
+              <img
+                class="project__img project-29"
+                src="assets/portfolio-projects/29.jpg"
+                alt="Project 3"
+              />
+              <h2 class="project__title">you!!!</h2>
+            </div>
+
+            <button class="arrow" onclick="navigateProject(1)">&#10095;</button>
+
+            <script src="./js/video.js" defer></script>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 -->
+
+      <div id="grid__br">
+        <div id="grid__br__btn">????</div>
+        <div id="grid__br__content">
+          <div class="incoming__call">
+            <div class="notification__center">
+              <p id="hora-actual"></p>
+              <!-- <p class="icon__0">11:10</p> -->
+              <div class="tr__icons">
+                <img
+                  class="icon__0"
+                  src="./assets/icons/phone.png"
+                  alt="Signal"
+                />
+                <img class="icon__0" src="./assets/icons/wifi.png" alt="WiFi" />
+                <img
+                  class="icon__0"
+                  src="./assets/icons/battery.png"
+                  alt="Battery"
+                />
+              </div>
+            </div>
+            <div class="call__title">
+              <div class="whatsapp__title">
+                <img src="./assets/icons/wsp.png" alt="Whatsapp Icon" />
+                <p>Whatsapp Video...</p>
+              </div>
+              <h2>josue</h2>
+            </div>
+
+            <div class="call__icons">
+              <div class="icon__1">
+                <div class="circular">
+                  <img src="./assets/icons/message.png" alt="Message Icon" />
+                </div>
+
+                <p>Message</p>
+              </div>
+              <div class="icon__1">
+                <div class="circular">
+                  <img src="./assets/icons/clock.png" alt="Remind me Icon" />
+                </div>
+                <p>Remind me</p>
+              </div>
+
+              <div class="icon__2">
+                <div class="circular__2">
+                  <img src="./assets/icons/close.png" alt="Decline Icon" />
+                </div>
+
+                <p>Decline</p>
+              </div>
+              <div class="icon__2">
+                <a
+                  class="circular__3"
+                  href="https://www.youtube.com/watch?v=Z8QP1HIdKi8&ab_channel=JosueAleman"
+                  target="_blank"
+                >
+                  <img src="./assets/icons/check.png" alt="Accept icon" />
+                </a>
+
+                <p>Accept</p>
+              </div>
+            </div>
+
+            <div class="linea-blanca"></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="particles-js"></div>
+    <script src="./js/particles.js" defer></script>
+    <script src="./js/light.js" defer></script>
+
+    <div id="color-mode">
+      <div id="toggle-button" class="icon"></div>
+    </div>
+  </body>
+</html>
